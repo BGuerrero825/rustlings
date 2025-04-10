@@ -5,8 +5,6 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     // Use the vector macro.
     // let v = ???;
 
-    //let v = vec![a[0],a[1],a[2],a[3]];
-    let v = a.to_vec();
     (a, v)
 }
 
